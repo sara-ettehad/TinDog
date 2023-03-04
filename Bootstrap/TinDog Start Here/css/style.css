@@ -58,6 +58,9 @@ h1 {
     font-size: 2.5rem;
     color: #ef8172;
 }
+.icon:hover{
+    color: #ff4c68;
+}
 
 .features-title{
     font-family: "montserrat-bold";
