@@ -3,7 +3,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 #title{
@@ -54,6 +54,7 @@ p{
     font-family: "Montserrat-light";
 }
 
+
 /*download button*/
 
 .download-button{
@@ -63,14 +64,24 @@ p{
 /* Title image*/
 
 .title-image{
-    width: 60%;
-    transform: rotate(25deg);
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 22%;
 }
 
 /*features*/
 
 #features{
-    margin: 20px;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
 }
 
 .icon{
@@ -121,3 +132,39 @@ margin: 20px;
     margin: 20px 20px 50px;
 }
 
+/*pricing*/
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/*footer*/
+
+#footer{
+    text-align: center;
+}
+
+.social-link{
+    padding: 0.5%;
+    color: black;
+}
+
+.social-link:hover{
+    color:dimgrey;
+}
+
+@media (max-width: 991px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
