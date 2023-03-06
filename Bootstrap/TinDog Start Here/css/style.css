@@ -2,17 +2,21 @@ body{
     font-family: "Montserrat";
 }
 
-h1,h2,h3,h4,h5,h6 {  
-    font-family: 'Montserrat-Bold';  
+h1 {  
+    font-family: 'Montserrat-Black';  
     font-size: 3rem;  
     line-height: 1.5;  
 }
 
 h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
 }
 
 h3{
+    font-family: "Montserrat-Black";
     font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 p{
